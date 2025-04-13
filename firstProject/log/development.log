@@ -17,3 +17,66 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 24ms (Views: 6.0ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
 
 
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='FirstProject'*/[0m
+Started GET "/" for ::1 at 2025-04-13 08:26:16 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC /*application='FirstProject'*/[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/laos/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/railties-8.0.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/laos/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/railties-8.0.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 36ms (Views: 3.2ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/rails/info/routes" for ::1 at 2025-04-13 08:26:40 -0300
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /home/laos/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/railties-8.0.2/lib/rails/templates/layouts/application.html.erb
+  Rendering /home/laos/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/railties-8.0.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /home/laos/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb [44 times] (Duration: 10.3ms | GC: 0.0ms)
+  Rendered /home/laos/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/actionpack-8.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 4.4ms | GC: 0.0ms)
+  Rendered /home/laos/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/railties-8.0.2/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 24.3ms | GC: 0.0ms)
+  Rendered layout /home/laos/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/railties-8.0.2/lib/rails/templates/layouts/application.html.erb (Duration: 25.0ms | GC: 0.0ms)
+Completed 200 OK in 31ms (Views: 26.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/favicon.ico" for ::1 at 2025-04-13 08:26:40 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+Started GET "/?vscodeBrowserReqId=1744543624702" for 127.0.0.1 at 2025-04-13 08:27:04 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"vscodeBrowserReqId"=>"1744543624702"}
+  Rendering /home/laos/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/railties-8.0.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/laos/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/railties-8.0.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.3ms | GC: 0.0ms)
+Completed 200 OK in 8ms (Views: 0.7ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/?vscodeBrowserReqId=1744543635268" for 127.0.0.1 at 2025-04-13 08:27:15 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"vscodeBrowserReqId"=>"1744543635268"}
+  Rendering /home/laos/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/railties-8.0.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/laos/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/railties-8.0.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2025-04-13 08:27:19 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/laos/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/railties-8.0.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/laos/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/railties-8.0.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.6ms | GC: 0.0ms)
+Completed 200 OK in 11ms (Views: 2.1ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/?vscodeBrowserReqId=1744543644548" for 127.0.0.1 at 2025-04-13 08:27:24 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"vscodeBrowserReqId"=>"1744543644548"}
+  Rendering /home/laos/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/railties-8.0.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/laos/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/railties-8.0.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
+Started GET "/?vscodeBrowserReqId=1744543645124" for 127.0.0.1 at 2025-04-13 08:27:25 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"vscodeBrowserReqId"=>"1744543645124"}
+  Rendering /home/laos/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/railties-8.0.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/laos/.rbenv/versions/3.3.5/lib/ruby/gems/3.3.0/gems/railties-8.0.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | GC: 0.0ms)
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.0ms (0 queries, 0 cached) | GC: 0.0ms)
+
+
